@@ -23,6 +23,7 @@ fish
 floorp-bin
 fuzzel
 git
+github-cli
 gst-plugin-pipewire
 hyprland
 hyprlock
