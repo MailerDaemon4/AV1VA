@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Full lista helye (repo + AUR)
-FULL_LIST="$HOME/repo/full_list.txt"
+FULL_LIST="./fullpkglist.txt"
 
 # Ellenőrizzük, hogy yay telepítve van-e, ha nincs, telepítjük
 if ! command -v yay &> /dev/null; then
@@ -31,3 +31,4 @@ while read -r pkg; do
 done < "$FULL_LIST"
 
 echo "==> Csomagok telepítve."
+
