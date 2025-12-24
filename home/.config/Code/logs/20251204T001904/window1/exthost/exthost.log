@@ -1,0 +1,26 @@
+2025-12-04 00:19:10.920 [info] Extension host with pid 16141 started
+2025-12-04 00:19:10.921 [info] Skipping acquiring lock for /home/mailerdaemon/.config/Code/User/workspaceStorage/a407f9a6c6343371466fa931c8c4134c.
+2025-12-04 00:19:11.171 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-04 00:19:11.535 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-04 00:19:11.986 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage'
+2025-12-04 00:19:12.299 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-12-04 00:19:14.559 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-04 00:19:14.564 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2025-12-04 00:19:14.595 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-12-04 00:19:14.691 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-04 00:19:14.773 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-04 00:19:15.529 [info] Eager extensions activated
+2025-12-04 00:19:15.622 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-04 00:19:15.631 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-04 00:19:15.684 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onStartupFinished', root cause: expo.vscode-expo-tools
+2025-12-04 00:19:15.913 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onStartupFinished', root cause: expo.vscode-expo-tools
+2025-12-04 00:19:16.064 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-12-04 00:19:20.981 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-12-04 00:19:21.038 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at sqt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:5906)
+2025-12-04 00:19:21.220 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: ritwickdey.LiveServer
+2025-12-04 00:19:23.928 [info] ExtensionService#_doActivateExtension expo.vscode-expo-tools, startup: false, activationEvent: 'onStartupFinished'
+2025-12-04 00:19:24.256 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-12-04 00:19:24.284 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-12-04 00:20:24.519 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-04 00:20:24.625 [info] Extension host with pid 16141 exiting with code 0

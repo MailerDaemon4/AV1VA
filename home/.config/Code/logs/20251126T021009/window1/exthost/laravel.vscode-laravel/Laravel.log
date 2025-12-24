@@ -1,0 +1,577 @@
+2025-11-26 02:10:16.753 [info] Activating Laravel Extension...
+2025-11-26 02:10:16.753 [info] Started
+2025-11-26 02:10:16.753 [info] Checking herd PHP installation: herd which-php
+2025-11-26 02:10:16.753 [info] Checking valet PHP installation: valet which-php
+2025-11-26 02:10:16.753 [info] Checking sail PHP installation: ./vendor/bin/sail ps
+2025-11-26 02:10:16.753 [info] Checking lando PHP installation: lando php -r 'echo PHP_BINARY;'
+2025-11-26 02:10:16.753 [info] Checking ddev PHP installation: ddev php -r 'echo PHP_BINARY;'
+2025-11-26 02:10:16.753 [info] Checking local PHP installation: php -r 'echo PHP_BINARY;'
+2025-11-26 02:10:16.753 [info] Using local PHP installation: /usr/bin/php
+2025-11-26 02:57:26.140 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected identifier "protec", expecting "function"
+
+  at app/Models/Game.php:9
+      5▕ use Illuminate\Database\Eloquent\Model;
+      6▕ 
+      7▕ class Game extends Model
+      8▕ {
+  ➜   9▕     protec
+     10▕ }
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-26 02:57:26.929 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting variable
+
+  at app/Models/Game.php:10
+      6▕ 
+      7▕ class Game extends Model
+      8▕ {
+      9▕     protected
+  ➜  10▕ }
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 02:57:30.660 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Game.php:10
+      6▕ 
+      7▕ class Game extends Model
+      8▕ {
+      9▕     protected $fill
+  ➜  10▕ }
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 02:57:33.956 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Game.php:10
+      6▕ 
+      7▕ class Game extends Model
+      8▕ {
+      9▕     protected $fillable
+  ➜  10▕ }
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 02:57:37.129 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected integer "7", expecting "," or ";"
+
+  at app/Models/Game.php:9
+      5▕ use Illuminate\Database\Eloquent\Model;
+      6▕ 
+      7▕ class Game extends Model
+      8▕ {
+  ➜   9▕     protected $fillable 7[]
+     10▕ }
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-26 02:57:41.914 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "[", expecting "," or ";"
+
+  at app/Models/Game.php:9
+      5▕ use Illuminate\Database\Eloquent\Model;
+      6▕ 
+      7▕ class Game extends Model
+      8▕ {
+  ➜   9▕     protected $fillable []
+     10▕ }
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 02:57:43.410 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Game.php:10
+      6▕ 
+      7▕ class Game extends Model
+      8▕ {
+      9▕     protected $fillable = []
+  ➜  10▕ }
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:26:47.477 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use 
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:26:51.821 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illumin
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:26:53.720 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:26:55.057 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "{"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:00.289 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:02.608 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "{"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:05.377 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\E
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:08.949 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Elo
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:10.073 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloq
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:12.062 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloqu
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:14.193 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:15.234 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "{"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:21.927 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Factories
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:23.573 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "{"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Factories\
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:25.529 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Factories\Has
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:27:35.663 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Factories\HasFactory
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:36:29.115 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "/"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Factories\HasFactory;
+  ➜   6▕ use /Illuminate/Database/Eloquent/Factories/HasFactory
+      7▕ use Illuminate\Database\Eloquent\Model;
+      8▕ 
+      9▕ class Studio extends Model
+     10▕ {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:36:31.532 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "/", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Factories\HasFactory;
+  ➜   6▕ use Illuminate/Database/Eloquent/Factories/HasFactory
+      7▕ use Illuminate\Database\Eloquent\Model;
+      8▕ 
+      9▕ class Studio extends Model
+     10▕ {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:36:35.855 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "/", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Factories\HasFactory;
+  ➜   6▕ use Illuminate\Database/Eloquent/Factories/HasFactory
+      7▕ use Illuminate\Database\Eloquent\Model;
+      8▕ 
+      9▕ class Studio extends Model
+     10▕ {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:36:38.206 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "/", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Factories\HasFactory;
+  ➜   6▕ use Illuminate\Database\Eloquent/Factories/HasFactory
+      7▕ use Illuminate\Database\Eloquent\Model;
+      8▕ 
+      9▕ class Studio extends Model
+     10▕ {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:36:41.614 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "/", expecting "," or ";"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Factories\HasFactory;
+  ➜   6▕ use Illuminate\Database\Eloquent\Factories/HasFactory
+      7▕ use Illuminate\Database\Eloquent\Model;
+      8▕ 
+      9▕ class Studio extends Model
+     10▕ {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:36:44.158 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use", expecting "," or ";"
+
+  at app/Models/Studio.php:7
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Factories\HasFactory;
+      6▕ use Illuminate\Database\Eloquent\Factories\HasFactory
+  ➜   7▕ use Illuminate\Database\Eloquent\Model;
+      8▕ 
+      9▕ class Studio extends Model
+     10▕ {
+     11▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:36:48.721 [error] Error:
+ Eloquent Attributes and Relations
+
+PHP Fatal error:  Cannot use Illuminate\Database\Eloquent\Factories\HasFactory as HasFactory because the name is already in use in /home/mailerdaemon/Projects/seeder/app/Models/Studio.php on line 6
+
+2025-11-26 03:36:48.721 [error] "/usr/bin/php" "/home/mailerdaemon/Projects/seeder/vendor/_laravel_ide/discover-77e9e6a2445455b87d4f4cd834e4e23d.php"
+2025-11-26 03:36:48.721 [error] Eloquent Attributes and Relations
+
+PHP Fatal error:  Cannot use Illuminate\Database\Eloquent\Factories\HasFactory as HasFactory because the name is already in use in /home/mailerdaemon/Projects/seeder/app/Models/Studio.php on line 6
+
+2025-11-26 03:37:05.591 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "use"
+
+  at app/Models/Studio.php:6
+      2▕ 
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ c
+  ➜   6▕ use Illuminate\Database\Eloquent\Model;
+      7▕ 
+      8▕ class Studio extends Model
+      9▕ {
+     10▕     //
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-26 03:50:39.581 [error] Eloquent Attributes and Relations
+
+SyntaxError: Unexpected non-whitespace character after JSON at position 2 (line 1 column 3)
+2025-11-26 23:57:17.602 [info] Stopped

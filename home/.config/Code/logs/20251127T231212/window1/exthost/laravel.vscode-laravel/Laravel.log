@@ -1,0 +1,2133 @@
+2025-11-27 23:20:14.760 [info] Activating Laravel Extension...
+2025-11-27 23:20:14.760 [info] Started
+2025-11-27 23:20:14.760 [info] Checking herd PHP installation: herd which-php
+2025-11-27 23:20:14.760 [info] Checking valet PHP installation: valet which-php
+2025-11-27 23:20:14.760 [info] Checking sail PHP installation: ./vendor/bin/sail ps
+2025-11-27 23:20:14.760 [info] Checking lando PHP installation: lando php -r 'echo PHP_BINARY;'
+2025-11-27 23:20:14.760 [info] Checking ddev PHP installation: ddev php -r 'echo PHP_BINARY;'
+2025-11-27 23:20:14.760 [info] Checking local PHP installation: php -r 'echo PHP_BINARY;'
+2025-11-27 23:20:14.760 [info] Using local PHP installation: /usr/bin/php
+2025-11-27 23:27:36.577 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting variable
+
+  at app/Models/Student.php:11
+      7▕ class Student extends Model
+      8▕ {
+      9▕     //
+     10▕     protected 
+  ➜  11▕ }
+     12▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:27:43.556 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "[", expecting "," or ";"
+
+  at app/Models/Student.php:10
+      6▕ 
+      7▕ class Student extends Model
+      8▕ {
+      9▕     //
+  ➜  10▕     protected $fillable[]
+     11▕ }
+     12▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:27:46.033 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Student.php:11
+      7▕ class Student extends Model
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = []
+  ➜  11▕ }
+     12▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:28:09.237 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Student.php:11
+      7▕ class Student extends Model
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ["name"]
+  ➜  11▕ }
+     12▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:28:10.618 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Student.php:11
+      7▕ class Student extends Model
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ["name" , ]
+  ➜  11▕ }
+     12▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:28:54.875 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Student.php:12
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ["name" , 
+     11▕     2]
+  ➜  12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-27 23:28:58.138 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Student.php:11
+      7▕ class Student extends Model
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ["name" , "c"]
+  ➜  11▕ }
+     12▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:28:59.831 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Student.php:11
+      7▕ class Student extends Model
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"]
+  ➜  11▕ }
+     12▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:09.305 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting variable
+
+  at app/Models/Student.php:13
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public func
+  ➜  13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:11.752 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at app/Models/Student.php:13
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function
+  ➜  13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:17.047 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "("
+
+  at app/Models/Student.php:13
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams
+  ➜  13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:18.901 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";" or "{"
+
+  at app/Models/Student.php:13
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams()
+  ➜  13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:26.526 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";" or "{"
+
+  at app/Models/Student.php:13
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams()
+  ➜  13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:29.088 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "@", expecting ";" or "{"
+
+  at app/Models/Student.php:12
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+  ➜  12▕     public function exams()@}
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:32.630 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  Unclosed '{' on line 8
+
+  at app/Models/Student.php:13
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams(){}
+  ➜  13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:36.205 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Student.php:14
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams(){
+     13▕         return
+  ➜  14▕     }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:40.303 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Student.php:14
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams(){
+     13▕         return 
+  ➜  14▕     }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:43.024 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Student.php:14
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams(){
+     13▕         return $this
+  ➜  14▕     }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:45.154 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+
+  at app/Models/Student.php:14
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams(){
+     13▕         return $this->
+  ➜  14▕     }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:46.770 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Student.php:14
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams(){
+     13▕         return $this->has
+  ➜  14▕     }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:50.498 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Student.php:14
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams(){
+     13▕         return $this->hasMany
+  ➜  14▕     }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:53.799 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Student.php:14
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams(){
+     13▕         return $this->hasMany()
+  ➜  14▕     }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:56.958 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Student.php:14
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams(){
+     13▕         return $this->hasMany(Exam)
+  ➜  14▕     }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:29:59.528 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token ")"
+
+  at app/Models/Student.php:13
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams(){
+  ➜  13▕         return $this->hasMany(Exam::)
+     14▕     }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:30:02.390 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Student.php:14
+     10▕     protected $fillable = ["name" , "class"];
+     11▕ 
+     12▕     public function exams(){
+     13▕         return $this->hasMany(Exam::class)
+  ➜  14▕     }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:30:05.563 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  Unclosed '{' on line 8
+
+  at app/Models/Student.php:15
+     11▕ 
+     12▕     public function exams(){
+     13▕         return $this->hasMany(Exam::class);
+     14▕     }
+  ➜  15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:30:30.076 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "class"
+
+  at app/Models/Student.php:7
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Model;
+      6▕ use 
+  ➜   7▕ class Student extends Model
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:30:32.533 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "class", expecting "," or ";"
+
+  at app/Models/Student.php:7
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Model;
+      6▕ use App
+  ➜   7▕ class Student extends Model
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:30:34.014 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "class", expecting "{"
+
+  at app/Models/Student.php:7
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Model;
+      6▕ use App\
+  ➜   7▕ class Student extends Model
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:30:39.337 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "class", expecting "{"
+
+  at app/Models/Student.php:7
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Model;
+      6▕ use App\Models\
+  ➜   7▕ class Student extends Model
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:30:41.876 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "class", expecting "," or ";"
+
+  at app/Models/Student.php:7
+      3▕ namespace App\Models;
+      4▕ 
+      5▕ use Illuminate\Database\Eloquent\Model;
+      6▕ use App\Models\Exam
+  ➜   7▕ class Student extends Model
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ["name" , "class"];
+     11▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:31:04.235 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected identifier "pro", expecting "function"
+
+  at app/Models/Exam.php:11
+      7▕ class Exam extends Model
+      8▕ {
+      9▕     //
+     10▕ 
+  ➜  11▕     pro
+     12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:31:07.003 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting variable
+
+  at app/Models/Exam.php:12
+      8▕ {
+      9▕     //
+     10▕ 
+     11▕     protected fill
+  ➜  12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:31:08.875 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting variable
+
+  at app/Models/Exam.php:12
+      8▕ {
+      9▕     //
+     10▕ 
+     11▕     protected fillable
+  ➜  12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:31:11.462 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Exam.php:12
+      8▕ {
+      9▕     //
+     10▕ 
+     11▕     protected $fillable 
+  ➜  12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:31:14.498 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Exam.php:12
+      8▕ {
+      9▕     //
+     10▕ 
+     11▕     protected $fillable = []
+  ➜  12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:31:15.827 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Exam.php:12
+      8▕ {
+      9▕     //
+     10▕ 
+     11▕     protected $fillable = [""]
+  ➜  12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:31:20.188 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Exam.php:12
+      8▕ {
+      9▕     //
+     10▕ 
+     11▕     protected $fillable = ["student_name"]
+  ➜  12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:31:22.582 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Exam.php:12
+      8▕ {
+      9▕     //
+     10▕ 
+     11▕     protected $fillable = ["student_name" , ""]
+  ➜  12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:31:49.104 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Exam.php:12
+      8▕ {
+      9▕     //
+     10▕ 
+     11▕     protected $fillable = ["student_name" , "classroom" , ]
+  ➜  12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:31:52.950 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Exam.php:12
+      8▕ {
+      9▕     //
+     10▕ 
+     11▕     protected $fillable = ["student_name" , "classroom" , "subject"]
+  ➜  12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:31:57.746 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "," or ";"
+
+  at app/Models/Exam.php:12
+      8▕ {
+      9▕     //
+     10▕ 
+     11▕     protected $fillable = ["student_name" , "classroom" , "subject" , "date"]
+  ➜  12▕ }
+     13▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:32:07.102 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at app/Models/Exam.php:14
+     10▕ 
+     11▕     protected $fillable = ["student_name" , "classroom" , "subject" , "date"];
+     12▕ 
+     13▕     public function 
+  ➜  14▕ }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:32:10.084 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "("
+
+  at app/Models/Exam.php:14
+     10▕ 
+     11▕     protected $fillable = ["student_name" , "classroom" , "subject" , "date"];
+     12▕ 
+     13▕     public function student
+  ➜  14▕ }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:32:11.429 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";" or "{"
+
+  at app/Models/Exam.php:14
+     10▕ 
+     11▕     protected $fillable = ["student_name" , "classroom" , "subject" , "date"];
+     12▕ 
+     13▕     public function student()
+  ➜  14▕ }
+     15▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:32:14.480 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at app/Models/Exam.php:15
+     11▕     protected $fillable = ["student_name" , "classroom" , "subject" , "date"];
+     12▕ 
+     13▕     public function student(){
+     14▕         re
+  ➜  15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:32:19.391 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token ";", expecting variable or "{" or "$"
+
+  at app/Models/Exam.php:14
+     10▕ 
+     11▕     protected $fillable = ["student_name" , "classroom" , "subject" , "date"];
+     12▕ 
+     13▕     public function student(){
+  ➜  14▕         return $;
+     15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:32:23.687 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+
+  at app/Models/Exam.php:14
+     10▕ 
+     11▕     protected $fillable = ["student_name" , "classroom" , "subject" , "date"];
+     12▕ 
+     13▕     public function student(){
+  ➜  14▕         return $this-> ;
+     15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:36:11.335 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "{"
+
+  at app/Models/Exam.php:13
+      9▕     //
+     10▕ 
+     11▕     protected $fillable = ["student_name" , "classroom" , "subject" , "date"];
+     12▕ 
+  ➜  13▕     public function Sudent():{
+     14▕         return $this-> hasOne(Student::class);
+     15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:36:31.215 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+
+  at app/Models/Exam.php:14
+     10▕ 
+     11▕     protected $fillable = ["student_name" , "classroom" , "subject" , "date"];
+     12▕ 
+     13▕     public function Sudent(){
+  ➜  14▕         return $this-> (Student::class);
+     15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:42:18.162 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:42:20.791 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:42:28.889 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:42:32.614 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:42:39.376 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:42:43.451 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:42:44.963 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:04.747 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected token ")", expecting "("
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:08.604 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected token ")", expecting variable
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:11.741 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected token ")", expecting variable
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:13.892 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected token ":", expecting variable
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:15.602 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected token ":", expecting variable
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:18.184 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected token ":", expecting variable
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:21.092 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected token ":", expecting variable
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:31.996 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:33.460 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:39.880 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:42.171 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:44.705 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:43:50.691 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:44:04.904 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-27 23:44:06.163 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:44:07.686 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:44:16.083 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:44:17.979 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:44:20.659 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Undefined constant "StudentController"
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:44:26.635 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected token "{"
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:44:32.326 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected token "{"
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:44:39.327 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Call to undefined function index()
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:45:28.613 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:45:33.015 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:45:35.247 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected identifier "̇"
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:45:36.687 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:45:38.073 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:45:40.424 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:45:44.457 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:45:46.425 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:45:47.681 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:45:49.852 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:46:00.389 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:46:17.324 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:46:21.590 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:46:33.045 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:46:34.222 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected token ":"
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:46:37.024 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:46:39.513 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:46:40.907 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:46:42.219 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:46:48.453 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: syntax error, unexpected end of file
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:46:54.680 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Undefined constant "Exam"
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-27 23:47:06.446 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Undefined constant "app"
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-27 23:47:10.597 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Unclosed '(' does not match ']'
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:47:15.749 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Undefined constant "ExamController"
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:47:18.585 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Undefined constant "ExamController"
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:47:22.585 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:47:25.090 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:47:28.541 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:47:31.053 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:47:34.964 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:47:38.185 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:47:39.624 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:47:42.119 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:47:46.443 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-27 23:48:05.787 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:48:10.287 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:48:43.264 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:48:45.496 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-27 23:48:48.149 [error] Error: 
+   Error 
+
+  __VSCODE_LARAVEL_STARTUP_ERROR__: Class "ExamController" not found
+
+  at vendor/_laravel_ide/discover-1e7ea3cf42a2f9b84f3de09530e2c135.php:33
+     29▕     }
+     30▕ 
+     31▕     public static function startupError(\Throwable $e)
+     32▕     {
+  ➜  33▕         throw new Error(self::outputMarker('STARTUP_ERROR') . ': ' . $e->getMessage());
+     34▕     }
+     35▕ }
+     36▕ 
+     37▕ try {
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-11-28 02:04:58.950 [info] Stopped

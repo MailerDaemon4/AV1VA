@@ -1,0 +1,7 @@
+2025-12-10 03:11:42.714 [info] Getting Manifest... vue.volar
+2025-12-10 03:11:43.043 [info] Installing extension: vue.volar {"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mailerdaemon/.vscode/extensions/extensions.json","path":"/home/mailerdaemon/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-12-10 03:11:46.769 [info] Extension signature verification result for vue.volar: Success. Internal Code: 0. Executed: true. Duration: 2374ms.
+2025-12-10 03:11:46.914 [info] Extracted extension to file:///home/mailerdaemon/.vscode/extensions/vue.volar-3.1.8: vue.volar
+2025-12-10 03:11:46.954 [info] Renamed to /home/mailerdaemon/.vscode/extensions/vue.volar-3.1.8
+2025-12-10 03:11:47.040 [info] Marked extension as removed vue.volar-3.1.5
+2025-12-10 03:11:47.049 [info] Extension installed successfully: vue.volar vscode-userdata:/home/mailerdaemon/.vscode/extensions/extensions.json

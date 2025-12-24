@@ -1,0 +1,1154 @@
+{
+  "version": 3,
+  "requesterUsername": "DaemonMailer04",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/189427931",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "editor",
+  "requests": [
+    {
+      "requestId": "request_34876665-8037-4dae-8164-d2ff2eaea363",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 103
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 104
+            },
+            "text": "azt kapom hogy invalid /app/http/controllers/user. mert user controller a file neve de hol kell atirni?",
+            "kind": "text"
+          }
+        ],
+        "text": "azt kapom hogy invalid /app/http/controllers/user. mert user controller a file neve de hol kell atirni?"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "kind": "confirmation",
+          "title": "Enable GPT-5 mini for all clients",
+          "message": {
+            "value": "Enable access to the latest GPT-5 mini model from OpenAI. [Learn more about how GitHub Copilot serves GPT-5 mini](https://gh.io/copilot-openai).",
+            "uris": {
+              "https://gh.io/copilot-openai": {
+                "$mid": 1,
+                "external": "https://gh.io/copilot-openai",
+                "path": "/copilot-openai",
+                "scheme": "https",
+                "authority": "gh.io"
+              }
+            }
+          },
+          "data": {
+            "prompt": "azt kapom hogy invalid /app/http/controllers/user. mert user controller a file neve de hol kell atirni?"
+          },
+          "buttons": [
+            "Enable"
+          ],
+          "isUsed": true
+        }
+      ],
+      "responseId": "response_d2d47129-c2e0-4704-9519-807e36a1398c",
+      "result": {
+        "timings": {
+          "totalElapsed": 5
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.32.4",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1762538540175,
+      "modelId": "copilot/auto"
+    },
+    {
+      "requestId": "request_4220bc91-ae67-4e3e-b4fd-874818b5630e",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 8
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 9
+            },
+            "agent": {
+              "extensionId": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "extensionVersion": "0.32.4",
+              "publisherDisplayName": "GitHub",
+              "extensionPublisherId": "GitHub",
+              "extensionDisplayName": "GitHub Copilot Chat",
+              "id": "github.copilot.editor",
+              "description": "Ask or edit in context",
+              "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+              "metadata": {
+                "themeIcon": {
+                  "id": "copilot"
+                },
+                "hasFollowups": false,
+                "supportIssueReporting": false
+              },
+              "name": "Copilot",
+              "fullName": "GitHub Copilot",
+              "isDefault": true,
+              "locations": [
+                "editor"
+              ],
+              "modes": [
+                "ask"
+              ],
+              "slashCommands": [
+                {
+                  "name": "generate",
+                  "description": "Generate new code",
+                  "disambiguation": [
+                    {
+                      "category": "generate",
+                      "description": "Generate new code",
+                      "examples": [
+                        "Add a function that returns the sum of two numbers"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "edit",
+                  "description": "Edit the selected code in your active editor",
+                  "disambiguation": [
+                    {
+                      "category": "edit",
+                      "description": "Make changes to existing code",
+                      "examples": [
+                        "Change this method to use async/await"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "doc",
+                  "description": "Add documentation comment for this symbol",
+                  "disambiguation": [
+                    {
+                      "category": "doc",
+                      "description": "Add documentation comment for this symbol",
+                      "examples": [
+                        "Add jsdoc to this method"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "fix",
+                      "description": "Propose a fix for the problems in the selected code",
+                      "examples": [
+                        "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "explain",
+                  "description": "Explain how the code in your active editor works",
+                  "disambiguation": [
+                    {
+                      "category": "explain",
+                      "description": "Explain how the code in your active editor works",
+                      "examples": [
+                        "Write an explanation for the code above as paragraphs of text."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "tests",
+                  "description": "Generate unit tests for the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "tests",
+                      "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                      "examples": [
+                        "Write a set of detailed unit test functions for the code above."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "disambiguation": [
+                {
+                  "category": "unknown",
+                  "description": "Intent of this command is unclear or is not related to information technologies",
+                  "examples": [
+                    "Add a dog to this comment."
+                  ]
+                }
+              ]
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 8,
+              "endExclusive": 9
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 9,
+              "endLineNumber": 1,
+              "endColumn": 10
+            },
+            "text": " ",
+            "kind": "text"
+          },
+          {
+            "range": {
+              "start": 9,
+              "endExclusive": 13
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 10,
+              "endLineNumber": 1,
+              "endColumn": 14
+            },
+            "command": {
+              "name": "fix",
+              "description": "Propose a fix for the problems in the selected code",
+              "disambiguation": [
+                {
+                  "category": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "examples": [
+                    "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                  ]
+                }
+              ]
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 13,
+              "endExclusive": 57
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 14,
+              "endLineNumber": 1,
+              "endColumn": 58
+            },
+            "text": " Enable: \"Enable GPT-5 mini for all clients\"",
+            "kind": "text"
+          }
+        ],
+        "text": "@Copilot /fix Enable: \"Enable GPT-5 mini for all clients\""
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [],
+      "responseId": "response_cf7600a5-1505-4005-a318-55772233d937",
+      "result": {
+        "errorDetails": {
+          "code": "canceled",
+          "message": "Canceled",
+          "responseIsIncomplete": true
+        },
+        "timings": {
+          "totalElapsed": 25860
+        },
+        "metadata": {
+          "toolCallRounds": [
+            {
+              "response": "",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "49e4fee6-d566-4a2f-9603-b4c12336409a"
+            }
+          ],
+          "modelMessageId": "84188d4c-0d35-4c11-974d-b2c6231868a5",
+          "responseId": "a04c8cdd-76a2-4546-befd-c6405cbdcdaf",
+          "sessionId": "cf625075-491c-4d3a-a821-baa92f5e7bf9",
+          "agentId": "github.copilot.editor",
+          "command": "fix"
+        },
+        "details": "GPT-5 mini • 0.9x"
+      },
+      "followups": [],
+      "isCanceled": true,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.32.4",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/home/mailerdaemon/Projects/TestProject/app/Http/Controllers/UsersController.php",
+            "external": "file:///home/mailerdaemon/Projects/TestProject/app/Http/Controllers/UsersController.php",
+            "path": "/home/mailerdaemon/Projects/TestProject/app/Http/Controllers/UsersController.php",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1762538545252,
+      "confirmation": "Enable",
+      "modelId": "copilot/auto"
+    },
+    {
+      "requestId": "request_8d32b7e1-8924-4556-8b0a-240bbe96b8e2",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 105
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 3,
+              "endColumn": 1
+            },
+            "text": "azt kapom hogy invalid /app/http/controllers/user. mert user controller a file neve de hol kell atirni?\n\n",
+            "kind": "text"
+          }
+        ],
+        "text": "azt kapom hogy invalid /app/http/controllers/user. mert user controller a file neve de hol kell atirni?\n\n"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "kind": "confirmation",
+          "title": "Enable GPT-5 mini for all clients",
+          "message": {
+            "value": "Enable access to the latest GPT-5 mini model from OpenAI. [Learn more about how GitHub Copilot serves GPT-5 mini](https://gh.io/copilot-openai).",
+            "uris": {
+              "https://gh.io/copilot-openai": {
+                "$mid": 1,
+                "external": "https://gh.io/copilot-openai",
+                "path": "/copilot-openai",
+                "scheme": "https",
+                "authority": "gh.io"
+              }
+            }
+          },
+          "data": {
+            "prompt": "azt kapom hogy invalid /app/http/controllers/user. mert user controller a file neve de hol kell atirni?\n\n"
+          },
+          "buttons": [
+            "Enable"
+          ],
+          "isUsed": true
+        }
+      ],
+      "responseId": "response_85b20d41-1a0d-4d59-9e78-fb8b6d6cebd9",
+      "result": {
+        "timings": {
+          "totalElapsed": 0
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.32.4",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1762538572012,
+      "modelId": "copilot/auto"
+    },
+    {
+      "requestId": "request_fcbf8d78-751c-4cde-a95a-c72c26e10351",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 8
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 9
+            },
+            "agent": {
+              "extensionId": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "extensionVersion": "0.32.4",
+              "publisherDisplayName": "GitHub",
+              "extensionPublisherId": "GitHub",
+              "extensionDisplayName": "GitHub Copilot Chat",
+              "id": "github.copilot.editor",
+              "description": "Ask or edit in context",
+              "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+              "metadata": {
+                "themeIcon": {
+                  "id": "copilot"
+                },
+                "hasFollowups": false,
+                "supportIssueReporting": false
+              },
+              "name": "Copilot",
+              "fullName": "GitHub Copilot",
+              "isDefault": true,
+              "locations": [
+                "editor"
+              ],
+              "modes": [
+                "ask"
+              ],
+              "slashCommands": [
+                {
+                  "name": "generate",
+                  "description": "Generate new code",
+                  "disambiguation": [
+                    {
+                      "category": "generate",
+                      "description": "Generate new code",
+                      "examples": [
+                        "Add a function that returns the sum of two numbers"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "edit",
+                  "description": "Edit the selected code in your active editor",
+                  "disambiguation": [
+                    {
+                      "category": "edit",
+                      "description": "Make changes to existing code",
+                      "examples": [
+                        "Change this method to use async/await"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "doc",
+                  "description": "Add documentation comment for this symbol",
+                  "disambiguation": [
+                    {
+                      "category": "doc",
+                      "description": "Add documentation comment for this symbol",
+                      "examples": [
+                        "Add jsdoc to this method"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "fix",
+                      "description": "Propose a fix for the problems in the selected code",
+                      "examples": [
+                        "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "explain",
+                  "description": "Explain how the code in your active editor works",
+                  "disambiguation": [
+                    {
+                      "category": "explain",
+                      "description": "Explain how the code in your active editor works",
+                      "examples": [
+                        "Write an explanation for the code above as paragraphs of text."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "tests",
+                  "description": "Generate unit tests for the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "tests",
+                      "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                      "examples": [
+                        "Write a set of detailed unit test functions for the code above."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "disambiguation": [
+                {
+                  "category": "unknown",
+                  "description": "Intent of this command is unclear or is not related to information technologies",
+                  "examples": [
+                    "Add a dog to this comment."
+                  ]
+                }
+              ]
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 8,
+              "endExclusive": 9
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 9,
+              "endLineNumber": 1,
+              "endColumn": 10
+            },
+            "text": " ",
+            "kind": "text"
+          },
+          {
+            "range": {
+              "start": 9,
+              "endExclusive": 13
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 10,
+              "endLineNumber": 1,
+              "endColumn": 14
+            },
+            "command": {
+              "name": "fix",
+              "description": "Propose a fix for the problems in the selected code",
+              "disambiguation": [
+                {
+                  "category": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "examples": [
+                    "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                  ]
+                }
+              ]
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 13,
+              "endExclusive": 57
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 14,
+              "endLineNumber": 1,
+              "endColumn": 58
+            },
+            "text": " Enable: \"Enable GPT-5 mini for all clients\"",
+            "kind": "text"
+          }
+        ],
+        "text": "@Copilot /fix Enable: \"Enable GPT-5 mini for all clients\""
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [],
+      "responseId": "response_8cd79760-ac21-430d-802e-6066914be289",
+      "result": {
+        "errorDetails": {
+          "code": "canceled",
+          "message": "Canceled",
+          "responseIsIncomplete": true
+        },
+        "timings": {
+          "totalElapsed": 7410
+        },
+        "metadata": {
+          "toolCallRounds": [
+            {
+              "response": "",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "9d0781c1-acfe-486e-a9f8-e7948c42abdb"
+            }
+          ],
+          "modelMessageId": "ac6db6f0-aee1-4446-a03a-f8d1a6009da5",
+          "responseId": "d5961965-8194-439d-9878-09d9ff4a3b7e",
+          "sessionId": "cf625075-491c-4d3a-a821-baa92f5e7bf9",
+          "agentId": "github.copilot.editor",
+          "command": "fix"
+        },
+        "details": "GPT-5 mini • 0.9x"
+      },
+      "followups": [],
+      "isCanceled": true,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.32.4",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/home/mailerdaemon/Projects/TestProject/app/Http/Controllers/UsersController.php",
+            "external": "file:///home/mailerdaemon/Projects/TestProject/app/Http/Controllers/UsersController.php",
+            "path": "/home/mailerdaemon/Projects/TestProject/app/Http/Controllers/UsersController.php",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1762538580977,
+      "confirmation": "Enable",
+      "modelId": "copilot/auto"
+    }
+  ],
+  "sessionId": "d802ca9b-ec8e-40df-a6c2-6c39268f32ca",
+  "creationDate": 1762538496451,
+  "isImported": false,
+  "lastMessageDate": 1762538580977
+}

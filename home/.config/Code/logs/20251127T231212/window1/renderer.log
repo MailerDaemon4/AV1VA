@@ -1,0 +1,346 @@
+2025-11-27 23:12:13.923 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-27 23:12:14.516 [info] Started local extension host with pid 32800.
+2025-11-27 23:12:14.708 [error] Extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-11-27 23:12:14.921 [error] Ignoring expo.appManifest.fileReferences.excludeGlobPatterns as expo.appManifest.fileReferences is true
+2025-11-27 23:12:15.754 [error] Ignoring expo.appManifest.fileReferences.excludeGlobPatterns as expo.appManifest.fileReferences is true
+2025-11-27 23:12:18.788 [error] [Extension Host] (node:32800) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-11-27 23:12:20.221 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-11-27 23:12:20.709 [error] [Extension Host] (node:32800) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2025-11-27 23:12:20.743 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-27 23:12:22.020 [info] [perf] Render performance baseline is 46ms
+2025-11-27 23:12:23.638 [info] Extension host (LocalProcess pid: 32800) is unresponsive.
+2025-11-27 23:12:24.023 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:565:10226
+2025-11-27 23:12:24.825 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-11-27 23:12:25.445 [info] Extension host (LocalProcess pid: 32800) is responsive.
+2025-11-27 23:12:25.448 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-11-27 23:12:25.630 [error] 
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at D8e.quickSort (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14505)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:19673)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14997)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:21297)
+	 at gAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:34804)
+	 at j8e (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:36457)
+	 at X5t (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:37316)
+	 at f (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:372)
+	 at prepareStackTraceCallback (node:internal/errors:130:35)
+	 at Ea (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:632)
+	 at (anonymous) (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:443)
+	 at onUnexpectedExternalError (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:289)
+	 at id (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:578)
+	 at get (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6602)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:1)
+	 at Module._compile (node:internal/modules/cjs/loader:1663:37)
+	 at Module._extensions..js (node:internal/modules/cjs/loader:1813:37)
+	 at Module.load (node:internal/modules/cjs/loader:1439:33)
+	 at Module._load (node:internal/modules/cjs/loader:1176:24)
+	 at c._load (node:electron/js2c/node_init:2:17974)
+	 at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:5794)
+	 at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:211:22547)
+	 at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:26584)
+	 at traceSync (node:diagnostics_channel:320:12)
+	 at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+	 at Module.require (node:internal/modules/cjs/loader:1462:36)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-chat-0.32.5/dist/extension.js:81:36082)
+	 at require (node:internal/modules/helpers:146:19)
+	 at Cb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:242:865)
+2025-11-27 23:12:25.631 [error] 
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:390)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:251:113741)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:390)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:256:11668)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:390)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:256:23027)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:390)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:1)
+	 at Module._compile (node:internal/modules/cjs/loader:1663:37)
+	 at Module._extensions..js (node:internal/modules/cjs/loader:1813:37)
+	 at Module.load (node:internal/modules/cjs/loader:1439:33)
+	 at Module._load (node:internal/modules/cjs/loader:1176:24)
+	 at c._load (node:electron/js2c/node_init:2:17974)
+	 at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:5794)
+	 at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:211:22547)
+	 at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:26584)
+	 at traceSync (node:diagnostics_channel:320:12)
+	 at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+	 at Module.require (node:internal/modules/cjs/loader:1462:36)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-chat-0.32.5/dist/extension.js:81:36082)
+	 at require (node:internal/modules/helpers:146:19)
+	 at Cb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:242:865)
+2025-11-27 23:12:25.632 [error] 
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:1)
+	 at Module._compile (node:internal/modules/cjs/loader:1663:37)
+	 at Module._extensions..js (node:internal/modules/cjs/loader:1813:37)
+	 at Module.load (node:internal/modules/cjs/loader:1439:33)
+	 at Module._load (node:internal/modules/cjs/loader:1176:24)
+	 at c._load (node:electron/js2c/node_init:2:17974)
+	 at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:5794)
+	 at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:211:22547)
+	 at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:26584)
+	 at traceSync (node:diagnostics_channel:320:12)
+	 at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+	 at Module.require (node:internal/modules/cjs/loader:1462:36)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-chat-0.32.5/dist/extension.js:81:36082)
+	 at require (node:internal/modules/helpers:146:19)
+	 at Cb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:242:865)
+2025-11-27 23:12:25.633 [error] 
+	 at I5t (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:5029)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at iAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14299)
+	 at D8e.quickSort (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14505)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:19673)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:14997)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:21297)
+	 at gAe (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:34804)
+	 at j8e (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:36457)
+	 at X5t (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:37316)
+	 at f (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:372)
+	 at prepareStackTraceCallback (node:internal/errors:130:35)
+	 at Ea (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:632)
+	 at (anonymous) (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:443)
+	 at onUnexpectedExternalError (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:289)
+	 at id (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:578)
+	 at get (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6602)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:1)
+	 at Module._compile (node:internal/modules/cjs/loader:1663:37)
+	 at Module._extensions..js (node:internal/modules/cjs/loader:1813:37)
+	 at Module.load (node:internal/modules/cjs/loader:1439:33)
+	 at Module._load (node:internal/modules/cjs/loader:1176:24)
+	 at c._load (node:electron/js2c/node_init:2:17974)
+	 at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:5794)
+	 at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:211:22547)
+	 at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:26584)
+	 at traceSync (node:diagnostics_channel:320:12)
+	 at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+	 at Module.require (node:internal/modules/cjs/loader:1462:36)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-chat-0.32.5/dist/extension.js:81:36082)
+	 at require (node:internal/modules/helpers:146:19)
+	 at Cb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:242:865)
+2025-11-27 23:12:25.634 [error] 
+	 at d8e (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:503)
+	 at Le (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:684)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/dist/extension.js:1:1)
+	 at Module._compile (node:internal/modules/cjs/loader:1663:37)
+	 at Module._extensions..js (node:internal/modules/cjs/loader:1813:37)
+	 at Module.load (node:internal/modules/cjs/loader:1439:33)
+	 at Module._load (node:internal/modules/cjs/loader:1176:24)
+	 at c._load (node:electron/js2c/node_init:2:17974)
+	 at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:5794)
+	 at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:211:22547)
+	 at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:26584)
+	 at traceSync (node:diagnostics_channel:320:12)
+	 at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+	 at Module.require (node:internal/modules/cjs/loader:1462:36)
+	 at (anonymous) (file:///home/mailerdaemon/.vscode/extensions/github.copilot-chat-0.32.5/dist/extension.js:81:36082)
+	 at require (node:internal/modules/helpers:146:19)
+	 at Cb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:242:865)
+2025-11-27 23:12:25.801 [warning] UNRESPONSIVE extension host: 'github.copilot' took 93.33100368362501% of 582.238ms, saved PROFILE here: 'file:///tmp/exthost-0fc155.cpuprofile'
+2025-11-27 23:12:26.207 [error] [Extension Host] (node:32800) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2025-11-27 23:12:27.818 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-27 23:20:13.476 [error] [Extension Host] /bin/sh: line 1: herd: command not found
+2025-11-27 23:20:13.490 [error] [Extension Host] /bin/sh: line 1: valet: command not found
+2025-11-27 23:20:13.502 [error] [Extension Host] Docker is not running.
+2025-11-27 23:20:13.503 [error] [Extension Host] /bin/sh: line 1: lando: command not found
+2025-11-27 23:20:13.512 [error] [Extension Host] /bin/sh: line 1: ddev: command not found
+2025-11-27 23:42:18.164 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:42:20.792 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:42:28.890 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:42:32.615 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:42:39.377 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:42:43.452 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:42:44.964 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:04.748 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:08.607 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:11.742 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:13.893 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:15.606 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:18.185 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:21.093 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:31.997 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:33.461 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:39.881 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:42.172 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:44.706 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:43:50.692 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:44:04.909 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-27 23:44:06.164 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:44:07.687 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:44:16.085 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:44:17.982 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:44:20.660 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:44:26.637 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:44:32.327 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:44:39.328 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:45:28.615 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:45:33.016 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:45:35.249 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:45:36.688 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:45:38.074 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:45:40.427 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:45:44.458 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:45:46.426 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:45:47.682 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:45:49.853 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:46:00.391 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:46:17.325 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:46:21.591 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:46:33.046 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:46:34.223 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:46:37.034 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:46:39.514 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:46:40.909 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:46:42.220 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:46:48.455 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:46:54.683 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-27 23:47:06.447 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-27 23:47:10.598 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:47:15.751 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:47:18.586 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:47:22.586 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:47:25.095 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:47:28.544 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:47:31.054 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:47:34.965 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:47:38.187 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:47:39.626 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:47:42.120 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:47:46.450 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-27 23:48:05.789 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:48:10.288 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:48:43.266 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:48:45.498 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766
+2025-11-27 23:48:48.150 [error] [Extension Host] Error: Failed to load items
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1606:86766

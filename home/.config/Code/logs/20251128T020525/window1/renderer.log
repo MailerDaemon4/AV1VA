@@ -1,0 +1,14 @@
+2025-11-28 02:05:27.126 [info] Started local extension host with pid 38545.
+2025-11-28 02:05:27.203 [error] Extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-11-28 02:05:27.462 [error] Ignoring expo.appManifest.fileReferences.excludeGlobPatterns as expo.appManifest.fileReferences is true
+2025-11-28 02:05:28.418 [error] Ignoring expo.appManifest.fileReferences.excludeGlobPatterns as expo.appManifest.fileReferences is true
+2025-11-28 02:05:33.573 [error] [Extension Host] (node:38545) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-28 02:05:36.424 [info] Extension host (LocalProcess pid: 38545) is unresponsive.
+2025-11-28 02:05:39.139 [error] [Extension Host] (node:38545) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-28 02:05:39.145 [info] Extension host (LocalProcess pid: 38545) is responsive.
+2025-11-28 02:05:39.789 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-11-28 02:05:40.066 [error] [Extension Host] (node:38545) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2025-11-28 02:05:41.913 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-28 02:05:45.798 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-28 02:05:51.008 [info] [perf] Render performance baseline is 173ms

@@ -1,0 +1,13 @@
+[Unit]
+Description=Automount USB devices using udiskie
+After=dbus.service
+
+[Service]
+ExecStart=/usr/bin/udiskie --no-tray --automount --mount-point /home/mailerdaemon/usb
+Restart=always
+Environment=DISPLAY=:0
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+
+[Install]
+WantedBy=default.target
+

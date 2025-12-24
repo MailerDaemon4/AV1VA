@@ -1,0 +1,44 @@
+2025-11-27 23:12:16.072 [info] Extension host with pid 32800 started
+2025-11-27 23:12:16.072 [info] Skipping acquiring lock for /home/mailerdaemon/.config/Code/User/workspaceStorage/e15bf873b938f1c5d37ec65827f76c66.
+2025-11-27 23:12:16.217 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-27 23:12:16.296 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-27 23:12:16.337 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage'
+2025-11-27 23:12:16.519 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-11-27 23:12:18.926 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-27 23:12:18.931 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2025-11-27 23:12:18.980 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-11-27 23:12:19.052 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-11-27 23:12:19.213 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-27 23:12:19.420 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-27 23:12:19.826 [info] Eager extensions activated
+2025-11-27 23:12:20.102 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-27 23:12:20.107 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-27 23:12:20.162 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onStartupFinished', root cause: expo.vscode-expo-tools
+2025-11-27 23:12:20.468 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onStartupFinished', root cause: expo.vscode-expo-tools
+2025-11-27 23:12:20.703 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-11-27 23:12:25.429 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-11-27 23:12:25.780 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: ritwickdey.LiveServer
+2025-11-27 23:12:27.777 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at sqt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:5906)
+2025-11-27 23:12:27.790 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-27 23:12:27.833 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-27 23:12:27.874 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-11-27 23:12:28.115 [info] ExtensionService#_doActivateExtension expo.vscode-expo-tools, startup: false, activationEvent: 'onStartupFinished'
+2025-11-27 23:12:29.937 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-27 23:12:29.968 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-27 23:20:11.823 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2025-11-27 23:20:11.877 [info] ExtensionService#_doActivateExtension laravel.vscode-laravel, startup: false, activationEvent: 'onLanguage:php'
+2025-11-28 02:04:58.832 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-28 02:04:59.115 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+    at new MR (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at zb.resolveProxy (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:74817)
+    at Object.resolveProxy (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:25819)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:208:16)
+    at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:145:13
+    at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:788:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+2025-11-28 02:04:59.151 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+2025-11-28 02:04:59.161 [info] Extension host with pid 32800 exiting with code 0

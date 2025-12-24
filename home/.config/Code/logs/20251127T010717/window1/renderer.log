@@ -1,0 +1,212 @@
+2025-11-27 01:07:18.564 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-27 01:07:19.132 [info] Started local extension host with pid 30483.
+2025-11-27 01:07:19.315 [error] Extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-11-27 01:07:19.578 [error] Ignoring expo.appManifest.fileReferences.excludeGlobPatterns as expo.appManifest.fileReferences is true
+2025-11-27 01:07:20.469 [error] Ignoring expo.appManifest.fileReferences.excludeGlobPatterns as expo.appManifest.fileReferences is true
+2025-11-27 01:07:22.190 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-11-27 01:07:23.439 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-27 01:07:23.594 [error] [Extension Host] (node:30483) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-11-27 01:07:25.646 [error] [Extension Host] (node:30483) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2025-11-27 01:07:25.703 [info] [perf] Render performance baseline is 134ms
+2025-11-27 01:07:29.199 [error] [Extension Host] (node:30483) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2025-11-27 01:07:29.352 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-27 01:07:43.470 [error] [Extension Host] [AsyncCompletionManager] [69f85169-f5d0-4400-aead-21ac5d846538] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-27 01:07:44.516 [error] [Extension Host] [AsyncCompletionManager] [df75282e-8515-4066-93df-2b955e1b9ae6] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-27 01:08:19.253 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13219
+    at Vi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:12993
+    at async wWe.trigger (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35633)
+2025-11-27 01:08:35.857 [error] [Extension Host] [AsyncCompletionManager] [2ffec5cb-72d7-418f-a2e9-c93117b693b6] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-27 01:08:36.144 [error] [Extension Host] [AsyncCompletionManager] [2e3eb6f0-533d-41aa-9a53-7a99f2738c0b] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-27 01:10:02.299 [error] [Extension Host] [AsyncCompletionManager] [9809a2d9-d1b8-4178-87b9-3b7dec08af4f] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-27 01:18:02.733 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at mWe.clear (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13580)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35954
+    at h2 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:104074)
+    at wWe.stop (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35812)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3818
+    at Vi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at C6._runFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3809)
+    at C6.k (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:5636)
+    at C6.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:6050)
+2025-11-27 01:25:46.075 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at mWe.clear (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13580)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35954
+    at h2 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:104074)
+    at wWe.stop (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35812)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3818
+    at Vi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at C6._runFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3809)
+    at C6.k (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:5636)
+    at C6.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:6050)
+2025-11-27 01:26:05.673 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at mWe.clear (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13580)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35954
+    at h2 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:104074)
+    at wWe.stop (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35812)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3818
+    at Vi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at C6._runFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3809)
+    at C6.k (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:5636)
+    at C6.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:6050)
+2025-11-27 01:26:11.879 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at mWe.clear (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13580)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35954
+    at h2 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:104074)
+    at wWe.stop (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35812)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3818
+    at Vi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at C6._runFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3809)
+    at C6.k (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:5636)
+    at C6.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:6050)
+2025-11-27 01:26:15.929 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at mWe.clear (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13580)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35954
+    at h2 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:104074)
+    at wWe.stop (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35812)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3818
+    at Vi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at C6._runFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3809)
+    at C6.k (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:5636)
+    at C6.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:6050)
+2025-11-27 23:02:01.319 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at F4.fetch (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/network/helix.ts:160:22)
+    at apiFetch (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/network/github.ts:32:22)
+    at authFromGitHubSession (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/auth/copilotToken.ts:181:22)
+    at xW.fetchTokenResult (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/auth/copilotToken.ts:258:16)
+    at on.fetchTokenResult (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/auth/copilotTokenManager.ts:78:16)
+    at /home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/auth/copilotTokenManager.ts:101:24
+    at on.getTokenResult (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/auth/copilotTokenManager.ts:120:16)
+    at on.getToken (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/auth/copilotTokenManager.ts:150:24)
+    at t.fetchTokenAndUpdateExPValuesAndAssignments (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/experiments/features.ts:329:23)
+    at createTelemetryWithExp (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1392:30)
+    at getGhostText (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1085:27)
+    at getInlineCompletionsResult (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/mailerdaemon/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at da.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:145872) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined,
+  vslsStack: [
+    CallSite {}, CallSite {},
+    CallSite {}, CallSite {},
+    CallSite {}, CallSite {},
+    CallSite {}, CallSite {},
+    CallSite {}, CallSite {},
+    CallSite {}, CallSite {},
+    CallSite {}, CallSite {},
+    CallSite {}, CallSite {},
+    CallSite {}, CallSite {},
+    CallSite {}
+  ]
+}
+2025-11-27 23:02:02.212 [error] [Extension Host] Error: An unexpected error occurred: {"type":"networkError","reason":"It appears you're not connected to the internet, please check your network connection and try again.","requestId":"ee0652d9-d9aa-464d-957d-db55bd68c063"}
+    at zl (/home/mailerdaemon/.vscode/extensions/github.copilot-chat-0.32.5/dist/extension.js:1435:17066)
+    at kd.mapChatFetcherErrorToNoNextEditReason (/home/mailerdaemon/.vscode/extensions/github.copilot-chat-0.32.5/dist/extension.js:1644:2677)
+    at kd.streamEdits (/home/mailerdaemon/.vscode/extensions/github.copilot-chat-0.32.5/dist/extension.js:1641:3272)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-27 23:02:02.225 [error] An unexpected error occurred: {"type":"networkError","reason":"It appears you're not connected to the internet, please check your network connection and try again.","requestId":"ee0652d9-d9aa-464d-957d-db55bd68c063"}: Error: An unexpected error occurred: {"type":"networkError","reason":"It appears you're not connected to the internet, please check your network connection and try again.","requestId":"ee0652d9-d9aa-464d-957d-db55bd68c063"}
+    at zl (/home/mailerdaemon/.vscode/extensions/github.copilot-chat-0.32.5/dist/extension.js:1435:17066)
+    at kd.mapChatFetcherErrorToNoNextEditReason (/home/mailerdaemon/.vscode/extensions/github.copilot-chat-0.32.5/dist/extension.js:1644:2677)
+    at kd.streamEdits (/home/mailerdaemon/.vscode/extensions/github.copilot-chat-0.32.5/dist/extension.js:1641:3272)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)

@@ -1,0 +1,11 @@
+# PDF
+ext pdf | less
+
+# Images
+ext png|jpg|jpeg|bmp|gif|svg | echo "%f"
+
+# Videos
+ext mp4|mkv|webm | echo "%f"
+
+# Audio
+ext mp3|wav|flac | echo "%f"

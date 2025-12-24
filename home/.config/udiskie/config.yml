@@ -1,0 +1,11 @@
+program_options:
+  automount: true        # automatikusan csatolja a meghajtókat
+  notify: true           # értesítés csatoláskor
+  tray: false            # nincs tray ikon
+  file_manager: false    # nem indít fájlkezelőt
+
+mount_options:
+  vfat: ["uid=1000", "gid=1000", "umask=0022"]
+  ntfs: ["uid=1000", "gid=1000", "umask=0022"]
+  ext4: ["defaults"]
+

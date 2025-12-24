@@ -1,0 +1,278 @@
+2025-12-10 03:14:40.391 [info] Activating Laravel Extension...
+2025-12-10 03:14:40.391 [info] Started
+2025-12-10 03:14:40.391 [info] Checking herd PHP installation: herd which-php
+2025-12-10 03:14:40.391 [info] Checking valet PHP installation: valet which-php
+2025-12-10 03:14:40.391 [info] Checking sail PHP installation: ./vendor/bin/sail ps
+2025-12-10 03:14:40.391 [info] Checking lando PHP installation: lando php -r 'echo PHP_BINARY;'
+2025-12-10 03:14:40.391 [info] Checking ddev PHP installation: ddev php -r 'echo PHP_BINARY;'
+2025-12-10 03:14:40.391 [info] Checking local PHP installation: php -r 'echo PHP_BINARY;'
+2025-12-10 03:14:40.391 [info] Using local PHP installation: /usr/bin/php
+2025-12-10 03:16:34.463 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected identifier "pi", expecting "function"
+
+  at app/Models/Book.php:12
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ['title', 'author'];
+     11▕ 
+  ➜  12▕     pi
+     13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:16:36.512 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected identifier "pivot", expecting "function"
+
+  at app/Models/Book.php:12
+      8▕ {
+      9▕     //
+     10▕     protected $fillable = ['title', 'author'];
+     11▕ 
+  ➜  12▕     pivot
+     13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-10 03:16:45.289 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting variable
+
+  at app/Models/Book.php:13
+      9▕     //
+     10▕     protected $fillable = ['title', 'author'];
+     11▕ 
+     12▕     public cl
+  ➜  13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:16:46.310 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting variable
+
+  at app/Models/Book.php:13
+      9▕     //
+     10▕     protected $fillable = ['title', 'author'];
+     11▕ 
+     12▕     public 
+  ➜  13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:16:52.401 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting variable
+
+  at app/Models/Book.php:13
+      9▕     //
+     10▕     protected $fillable = ['title', 'author'];
+     11▕ 
+     12▕     public func
+  ➜  13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:16:54.769 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at app/Models/Book.php:13
+      9▕     //
+     10▕     protected $fillable = ['title', 'author'];
+     11▕ 
+     12▕     public function 
+  ➜  13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:16:59.391 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "("
+
+  at app/Models/Book.php:13
+      9▕     //
+     10▕     protected $fillable = ['title', 'author'];
+     11▕ 
+     12▕     public function user
+  ➜  13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:17:01.224 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "("
+
+  at app/Models/Book.php:13
+      9▕     //
+     10▕     protected $fillable = ['title', 'author'];
+     11▕ 
+     12▕     public function user
+  ➜  13▕ }
+     14▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:17:17.825 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Book.php:15
+     11▕ 
+     12▕     public function users()
+     13▕     {
+     14▕         return $this->belongsToMany(User::class)
+  ➜  15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:17:21.852 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+
+  at app/Models/Book.php:15
+     11▕ 
+     12▕     public function users()
+     13▕     {
+     14▕         return $this->belongsToMany(User::class) ->
+  ➜  15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:17:23.467 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at app/Models/Book.php:15
+     11▕ 
+     12▕     public function users()
+     13▕     {
+     14▕         return $this->belongsToMany(User::class) -
+  ➜  15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:17:26.253 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+
+  at app/Models/Book.php:15
+     11▕ 
+     12▕     public function users()
+     13▕     {
+     14▕         return $this->belongsToMany(User::class) ->
+  ➜  15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:17:30.631 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Book.php:15
+     11▕ 
+     12▕     public function users()
+     13▕     {
+     14▕         return $this->belongsToMany(User::class) -> withpi
+  ➜  15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-10 03:22:29.367 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+
+  at app/Models/Book.php:15
+     11▕ 
+     12▕     public function users()
+     13▕     {
+     14▕         return $this->belongsToMany(User::class) -> 
+  ➜  15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:22:31.402 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Book.php:15
+     11▕ 
+     12▕     public function users()
+     13▕     {
+     14▕         return $this->belongsToMany(User::class) -> with
+  ➜  15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:22:33.631 [error] Error: __VSCODE_LARAVEL_START_OUTPUT__
+   ParseError 
+
+  syntax error, unexpected token "}", expecting ";"
+
+  at app/Models/Book.php:15
+     11▕ 
+     12▕     public function users()
+     13▕     {
+     14▕         return $this->belongsToMany(User::class) -> withPi
+  ➜  15▕     }
+     16▕ }
+     17▕
+
+
+
+    at /home/mailerdaemon/.vscode/extensions/laravel.vscode-laravel-1.2.1/dist/extension.js:1588:442
+2025-12-10 03:52:13.367 [info] Stopped

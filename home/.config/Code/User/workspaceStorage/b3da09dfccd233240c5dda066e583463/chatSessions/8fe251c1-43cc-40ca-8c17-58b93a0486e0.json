@@ -1,0 +1,946 @@
+{
+  "version": 3,
+  "requesterUsername": "DaemonMailer04",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/189427931",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_7ef1867e-9238-4866-a766-d131cb722002",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 10
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 11
+            },
+            "agent": {
+              "extensionId": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "extensionVersion": "0.32.5",
+              "publisherDisplayName": "GitHub",
+              "extensionPublisherId": "GitHub",
+              "extensionDisplayName": "GitHub Copilot Chat",
+              "id": "github.copilot.workspace",
+              "description": "Ask about your workspace",
+              "when": "!github.copilot.interactiveSession.disabled",
+              "metadata": {
+                "sampleRequest": "How do I build this project?",
+                "themeIcon": {
+                  "id": "code"
+                },
+                "hasFollowups": false,
+                "supportIssueReporting": false
+              },
+              "name": "workspace",
+              "fullName": "Workspace",
+              "locations": [
+                "panel"
+              ],
+              "modes": [
+                "agent",
+                "ask",
+                "edit"
+              ],
+              "slashCommands": [
+                {
+                  "name": "explain",
+                  "description": "Explain how the code in your active editor works"
+                },
+                {
+                  "name": "tests",
+                  "description": "Generate unit tests for the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "create_tests",
+                      "description": "The user wants to generate unit tests.",
+                      "examples": [
+                        "Generate tests for my selection using pytest."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                },
+                {
+                  "name": "new",
+                  "description": "Scaffold code for a new file or project in a workspace",
+                  "sampleRequest": "Create a RESTful API server using typescript",
+                  "isSticky": true,
+                  "disambiguation": [
+                    {
+                      "category": "create_new_workspace_or_extension",
+                      "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                      "examples": [
+                        "Scaffold a Node server.",
+                        "Create a sample project which uses the fileSystemProvider API.",
+                        "react application"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "newNotebook",
+                  "description": "Create a new Jupyter Notebook",
+                  "sampleRequest": "How do I create a notebook to load data from a csv file?",
+                  "disambiguation": [
+                    {
+                      "category": "create_jupyter_notebook",
+                      "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                      "examples": [
+                        "Create a notebook to analyze this CSV file."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "setupTests",
+                  "description": "Set up tests in your project (Experimental)",
+                  "sampleRequest": "add playwright tests to my project",
+                  "when": "config.github.copilot.chat.setupTests.enabled",
+                  "disambiguation": [
+                    {
+                      "category": "set_up_tests",
+                      "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                      "examples": [
+                        "Set up tests for this project."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "disambiguation": [
+                {
+                  "category": "workspace_project_questions",
+                  "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+                  "examples": [
+                    "What does this project do?"
+                  ]
+                },
+                {
+                  "category": "find_code_in_workspace",
+                  "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+                  "examples": [
+                    "Where is the tree widget implemented?"
+                  ]
+                },
+                {
+                  "category": "generate_with_workspace_context",
+                  "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+                  "examples": [
+                    "Create a README for this project."
+                  ]
+                }
+              ]
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 10,
+              "endExclusive": 11
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 11,
+              "endLineNumber": 1,
+              "endColumn": 12
+            },
+            "text": " ",
+            "kind": "text"
+          },
+          {
+            "range": {
+              "start": 11,
+              "endExclusive": 19
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 12,
+              "endLineNumber": 1,
+              "endColumn": 20
+            },
+            "command": {
+              "name": "explain",
+              "description": "Explain how the code in your active editor works"
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 19,
+              "endExclusive": 414
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 20,
+              "endLineNumber": 5,
+              "endColumn": 98
+            },
+            "text": " No overload matches this call.\n  Overload 1 of 2, '(props: ButtonProps): Button', gave the following error.\n    Type 'void' is not assignable to type '((event: GestureResponderEvent) => void) | undefined'.\n  Overload 2 of 2, '(props: ButtonProps, context: any): Button', gave the following error.\n    Type 'void' is not assignable to type '((event: GestureResponderEvent) => void) | undefined'.",
+            "kind": "text"
+          }
+        ],
+        "text": "@workspace /explain No overload matches this call.\n  Overload 1 of 2, '(props: ButtonProps): Button', gave the following error.\n    Type 'void' is not assignable to type '((event: GestureResponderEvent) => void) | undefined'.\n  Overload 2 of 2, '(props: ButtonProps, context: any): Button', gave the following error.\n    Type 'void' is not assignable to type '((event: GestureResponderEvent) => void) | undefined'."
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:index.tsx",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "external": "file:///home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "thinking",
+          "value": "**Suggesting code improvements**\n\nI’m thinking of recommending a change to onPress={() => addItem(inputValue)}. If addItem returns a curried function, I could suggest using onPress={addItem(inputValue)}, but since it returns void, let’s keep it simple. It’d also be good to prevent empty input, clear the input after adding, disable the button, and use keyExtractor with item.id instead of the index. I’ll include a code block demonstrating the revised snippet in .tsx format with file path comments.",
+          "id": "+qOovJTlSXNUmcP5Vb8wsYiwCgzs4QBf7czmhR9s4Hvq6tYnh1ZxUMBCTLCxI4Qhrj0EyXRQMshBzz5aRv9Nwyp9nf74ypcsQm2IL6UQnCCGdHMAiIsFLwa4S0K0ll63ha43Qr34JLbxrCbTZwq85WmtelxGMmZmi4xc+0M4lk9DbDSjys59nPhZH7YHOmgOQ/l6t6nsmeiQIlKH+9eMg7FrsFIrGoCPonTZXLMiUh/hKJrcZXnUUFsuQ+UDQE319JdnWI+WfUG99VuN4wSMppimY2INJ8cK/CpmXqP2dB/xE8re4QwPbGaRA5EyjKywCuTinapBc4boN4Qa4WEZKmDRZOOp3x0Oz3VdHSna0bhaQNY/rIGhMGI97cU4nbnVBAD7j5HhBA7u5/2mc97d6N4DGw=="
+        },
+        {
+          "kind": "thinking",
+          "value": "",
+          "id": "qHuVtWWQuNbLMllfgM0mSeXaZrURYXjJrWnFVpBGodOjjxCqK1PioqXdPTMnU6u7lDJtzK4vktb1tLTk4N3bm1JNZPv4JtWOIR+nE50toLyJDfyf4HzdBqOEw3J4Ck2sA4lyPcaaX7oEciqi0bduOmHlYjrHAcIqEjd/rxlkpGAi3nxJCRPXaM8O5vlwKXLD51k2WChVWd27esC1IqV6IW/G/tzR/UJkhK9DzLuCfANjyK1cGazAFzplNuxD8I98wBPHFvqYiYnfGzf/E97FuYPEV4LvNdk1jLlBiWAQP1Qthco/z0VfZP4BB50F0VsEdRAQsZlu0Pnki+Ddhyi+63cDbrXhU+XTpl5x4VlHi7Zy91ZLcFtmvoYmsDjuXBCv4GIkTIa+iVwtfkxaqPT5rSg13g=="
+        },
+        {
+          "kind": "thinking",
+          "value": "**Structuring code suggestions**\n\nI’m thinking that I need to structure my code snippet like this:\n\n````tsx\n// filepath: index.tsx\n// ...existing code...\n{ changed code }\n// ...existing code...\n````\n\nI’ll show the changes without displaying the entire file, focusing on replacing the Button line and possibly revising TextInput formatting. I want to suggest using onPress={() => addItem(inputValue)} while keeping the Button import the same. It’s also essential to recommend passing the function to onPress instead of calling it directly. Lastly, I’ll mention adjusting the key on Text inside renderItem and recommend using TouchableOpacity or Button's title.",
+          "id": "z6ZAf5dQ0HQpCDRBSLc1xDUuxhP3w4JTSwkXcAZl454aZwDZSS8jSNQbNVV3mEDWzdh0iF98Bp5IMs916Valsd7oQhrc01JsydFgcyw3XQ/2w9Mli5n0QyAZqeqaIifXUgD4M5JL/wer+9S9Ss4u/eQsnPtOZDUzfo4pWiPtFunTxurZ+g/lX1w7S14xamFK7rLnshH151MQl8UV/3Ej4JM69ZdeaAb16V1cMZVLM6MeWPx4z4h2vhUI640VHVGQtBl7qKOzEMA/LXqZMUy/gEO3PMqxkU8g7QtUGlRFTF4FvjGJfCZAuRU7cG8sveZk7oQiScGMECHx1Nw2RR9D2qHN+chi4uM+ZMSZktHqGzoa5CnD5apkO+fTNIIqZfkTuvOhW+wkUK/VW1K21J2znG2GTw=="
+        },
+        {
+          "kind": "thinking",
+          "value": "",
+          "id": "5vdp3q71HHJ6yjFH/NVDOwS4GH4uURCJUXkWmfDOkySxMuGc64/s1kjhILAtWfVAxZSzebcbm+NU9Cz6wXyPVgu8srE3ehuHbf79xbQuDY6448H80ECvTC0h/QMstzHd1HjHG/fjQTpWzDHpykfBQjfTlt43qazr3cQWVq5eH/6rf32PH9ovT+47GC6SnawigUVeMn2eDEUb5Kfuw6SHtwar5uMeA/maH48GxGj25QLhVaOUu+mliu0C1Qj/nk0X7xUG4nVrSlx4uu3dIh3Az9JkDXKC7P3WApdRqsHjgVLoNklSWQp0S6YzNyBn5YElBeUED0Y1EPeex4u3PzApJLSQVIZHlL5Q5JPGrbLUjD0gCpJ3bKNyvd6P3oomVUSMz6KLhds7zNE2o+KR73kCKIjfbA=="
+        },
+        {
+          "kind": "thinking",
+          "value": "**Crafting a message**\n\nI want to start my message with a brief diagnosis and then present a code block that shows a fixed version. I plan to explain the rationale behind the changes while including two small suggestions: removing the key prop and using keyExtractor with a stable ID, as well as changing onPress to an arrow function.\n\nI’ll mention any other potential gotchas in 1-2 lines. I need to ensure the code block uses four backticks with tsx as the language name, along with a filepath comment and the existing code lines. The focus for changes will be on the Button component and possibly the value of onChangeText. I’ll provide the updated code snippet with comment markers for clarity.",
+          "id": "Z5PbsZaIwaxXEJUprtrrJlxGYO+uS6nTk4g8DNzkEJSB3SPgizBcTRU0wlW7OTE+V8qpCpwQ/63A3M9fqIqxqPYGj+eJq0jV9Nrg+IDceQPkOKjmSqIt1Qd289yQtqiGbw2SpLNk3sPiBZm2qoezwfcmliXe2v2r5bdvuEn1ZfJt7NeSxI3EaRlsMCPZ6RVNZkXhKzinyFPfS+SU43aLZ5mvPQJ0QI+pL3U/IdR8NJ+gwuBI4kTC3YpiJTmnDxOTg2oqp7SBGXZBkDZjML48LRbtsaR1Z3wO1TihLEeCpOqT+H6GRX6GBKQLcOiCGw6ipTYCNY0mGw6wV+dR/Ry8LHpcaLtGaEWreHWX6QMHotx/T3YzkgT5iVtP0tq9aTg0VTppu/bh+e6UVqanqfhiFv/7Mg=="
+        },
+        {
+          "kind": "thinking",
+          "value": "",
+          "id": "LppCLPCFeDYdzJuu95Z20JCVX/QLn0M0ZQ5z7CDLcW2b+AHlkGhora3z7+gNyUGg7cKyyzQHOaXxP6Jo+8/nZmWBJmeUVqHHdcX6nsoGsKxGECOMe6sEt6cnmwZPEOBeETKOIblIRqs6ttYJucTIHBpZHGj6AGbAtIUzglPHtYZcmewS65eCtjzfrwAgJAgtbr9eWt/1Ayc2s8vaAAP016hQuZ05b6EqvdTVDcE/fIu/shAdQIwc0yJQt93JHHAXaanpt36nTFNvYcrNpV7SgChIZpKFkLygiwwJLd5+HSA6zM8f1Mk7KjJPEAchrWI0z2SqFTEaHAhRXp3Eq4wg8P1N6oxPOgmOiS7FbUzABtPXpC02u07RfEV+NgUjI44+LPYHi7eImsKM0HAhU0FH5bF2vQ=="
+        },
+        {
+          "value": "Problem: you're calling addItem(inputValue) immediately instead of passing a function to onPress. onPress expects a callback; calling it returns void which causes the TypeScript error.\n\nFix: pass a function — e.g. an arrow function — to onPress.\n\n````tsx\n// ...existing code...\n      <Button onPress={() => addItem(inputValue)}><Text>btn</Text></Button>\n// ...existing code...\n````\n\nNotes / quick gotchas:\n- Don't put a key on the renderItem root when using FlatList; rely on keyExtractor (use stable ids instead of index if possible).\n- Consider disabling the button or ignoring empty input to avoid adding blank items.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_b3ecdca4-931d-4783-bde0-c8e82b0d7ff8",
+      "result": {
+        "timings": {
+          "firstProgress": 19370,
+          "totalElapsed": 21403
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "// ...existing code...\n      <Button onPress={() => addItem(inputValue)}><Text>btn</Text></Button>\n// ...existing code...\n",
+              "language": "tsx",
+              "markdownBeforeBlock": "Problem: you're calling addItem(inputValue) immediately instead of passing a function to onPress. onPress expects a callback; calling it returns void which causes the TypeScript error.\n\nFix: pass a function — e.g. an arrow function — to onPress.\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "Problem: you're calling addItem(inputValue) immediately instead of passing a function to onPress. onPress expects a callback; calling it returns void which causes the TypeScript error.\n\nFix: pass a function — e.g. an arrow function — to onPress.\n\n````tsx\n// filepath: index.tsx\n// ...existing code...\n      <Button onPress={() => addItem(inputValue)}><Text>btn</Text></Button>\n// ...existing code...\n````\n\nNotes / quick gotchas:\n- Don't put a key on the renderItem root when using FlatList; rely on keyExtractor (use stable ids instead of index if possible).\n- Consider disabling the button or ignoring empty input to avoid adding blank items.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "75a5089d-8f44-4d53-8dcd-5cda46a54616",
+              "statefulMarker": "btyXPAStP2ma8ZYDs7bTWinef7sJr+weX+DGYgcqDLHEmBW4zY/0f1q4nw5Rzyay7KuxaMn97ngHDIhAahGSTxQDpUwbbE7H4lAdzOd4TPXdNxMUh0ioG46Y3D+09USOycAPruinj125J7pmttUChmT+x0R4nEHH7Up1n+IwedJBxKK8PVXEz/6vGEHUnHUqx1jqfGORmGcBsHntTcpAIJfzVFSjx4HanKDQ0D7Bxp6mJaf9sbg8QYkc0Jdz6LTJDLcwc/mC7SS/x/ZOK7z0G2Up7lnYit50qYLjGH1g92Re7NbI7kggeNCo16MytdhINiGtPihw/MGn7toNSQgAhGwbOuolj4rCvxkHwNaOA/j6TfsTfG3+Loh8wvScLw0QCbya8xYxiSl/5UObRm64eSwqbeNL",
+              "thinking": {
+                "id": "AGq7ukTWYXqWyT0zg6ZyiCpbtbD2sWEAf6bJFGVATKuqp8pKDsWW6cwCkWA0AcDgjOdEgCKY7ym0ACJTA10hKOToXj8cQg89g+ttVPHnwfgg9emF/0nbPH745FBtw27pvLS4OJvN13PMo67v6kkUU35Rqn/v0EUnZh5FOH6y5x6i9aoKb62hi2l2vbstR7TrJ1XbHHICcDhuiB8vlbrHWtaCph0lgvmovGI8cEdFDYrbdDDruDsu23DYvs1JCN7HHr1rkKEbUhge68D31yw06qwLlWSxAHxoX7+KnmoBlN3opxqBgcZtNpCY1HKwgxwixmltiy6kVZgh/APYd9ag2piu/MmyFZjwOjyFyHJ8FZD6yLPS0jKVBkhi+UPlfubc92mfm0mREwpyl/CUVOP+RRMq0Q==",
+                "text": "**Suggesting code improvements**\n\nI’m thinking of recommending a change to onPress={() => addItem(inputValue)}. If addItem returns a curried function, I could suggest using onPress={addItem(inputValue)}, but since it returns void, let’s keep it simple. It’d also be good to prevent empty input, clear the input after adding, disable the button, and use keyExtractor with item.id instead of the index. I’ll include a code block demonstrating the revised snippet in .tsx format with file path comments.**Structuring code suggestions**\n\nI’m thinking that I need to structure my code snippet like this:\n\n````tsx\n// filepath: index.tsx\n// ...existing code...\n{ changed code }\n// ...existing code...\n````\n\nI’ll show the changes without displaying the entire file, focusing on replacing the Button line and possibly revising TextInput formatting. I want to suggest using onPress={() => addItem(inputValue)} while keeping the Button import the same. It’s also essential to recommend passing the function to onPress instead of calling it directly. Lastly, I’ll mention adjusting the key on Text inside renderItem and recommend using TouchableOpacity or Button's title.**Crafting a message**\n\nI want to start my message with a brief diagnosis and then present a code block that shows a fixed version. I plan to explain the rationale behind the changes while including two small suggestions: removing the key prop and using keyExtractor with a stable ID, as well as changing onPress to an arrow function.\n\nI’ll mention any other potential gotchas in 1-2 lines. I need to ensure the code block uses four backticks with tsx as the language name, along with a filepath comment and the existing code lines. The focus for changes will be on the Button component and possibly the value of onChangeText. I’ll provide the updated code snippet with comment markers for clarity.",
+                "encrypted": "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",
+                "tokens": 896
+              }
+            }
+          ],
+          "modelMessageId": "184eb424-322a-49c0-afed-69975a55d526",
+          "responseId": "908c2152-6b60-49ae-ba0f-db2d36ab164b",
+          "sessionId": "34fac810-f900-473a-ac48-20d03bab3297",
+          "agentId": "github.copilot.workspace",
+          "command": "explain"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.32.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.workspace",
+        "description": "Ask about your workspace",
+        "when": "!github.copilot.interactiveSession.disabled",
+        "metadata": {
+          "sampleRequest": "How do I build this project?",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "workspace",
+        "fullName": "Workspace",
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent",
+          "ask",
+          "edit"
+        ],
+        "slashCommands": [
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works"
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "create_tests",
+                "description": "The user wants to generate unit tests.",
+                "examples": [
+                  "Generate tests for my selection using pytest."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+          },
+          {
+            "name": "new",
+            "description": "Scaffold code for a new file or project in a workspace",
+            "sampleRequest": "Create a RESTful API server using typescript",
+            "isSticky": true,
+            "disambiguation": [
+              {
+                "category": "create_new_workspace_or_extension",
+                "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                "examples": [
+                  "Scaffold a Node server.",
+                  "Create a sample project which uses the fileSystemProvider API.",
+                  "react application"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "newNotebook",
+            "description": "Create a new Jupyter Notebook",
+            "sampleRequest": "How do I create a notebook to load data from a csv file?",
+            "disambiguation": [
+              {
+                "category": "create_jupyter_notebook",
+                "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                "examples": [
+                  "Create a notebook to analyze this CSV file."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "setupTests",
+            "description": "Set up tests in your project (Experimental)",
+            "sampleRequest": "add playwright tests to my project",
+            "when": "config.github.copilot.chat.setupTests.enabled",
+            "disambiguation": [
+              {
+                "category": "set_up_tests",
+                "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Set up tests for this project."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "workspace_project_questions",
+            "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+            "examples": [
+              "What does this project do?"
+            ]
+          },
+          {
+            "category": "find_code_in_workspace",
+            "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+            "examples": [
+              "Where is the tree widget implemented?"
+            ]
+          },
+          {
+            "category": "generate_with_workspace_context",
+            "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+            "examples": [
+              "Create a README for this project."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "explain",
+        "description": "Explain how the code in your active editor works"
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "external": "file:///home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 11,
+              "startColumn": 1,
+              "endLineNumber": 39,
+              "endColumn": 5
+            }
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1763711164818,
+      "modelId": "copilot/auto"
+    },
+    {
+      "requestId": "request_09c5d3d7-1118-4b8c-8c8c-4f34f5ad4ccd",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 10
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 11
+            },
+            "agent": {
+              "extensionId": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "extensionVersion": "0.32.5",
+              "publisherDisplayName": "GitHub",
+              "extensionPublisherId": "GitHub",
+              "extensionDisplayName": "GitHub Copilot Chat",
+              "id": "github.copilot.workspace",
+              "description": "Ask about your workspace",
+              "when": "!github.copilot.interactiveSession.disabled",
+              "metadata": {
+                "sampleRequest": "How do I build this project?",
+                "themeIcon": {
+                  "id": "code"
+                },
+                "hasFollowups": false,
+                "supportIssueReporting": false
+              },
+              "name": "workspace",
+              "fullName": "Workspace",
+              "locations": [
+                "panel"
+              ],
+              "modes": [
+                "agent",
+                "ask",
+                "edit"
+              ],
+              "slashCommands": [
+                {
+                  "name": "explain",
+                  "description": "Explain how the code in your active editor works"
+                },
+                {
+                  "name": "tests",
+                  "description": "Generate unit tests for the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "create_tests",
+                      "description": "The user wants to generate unit tests.",
+                      "examples": [
+                        "Generate tests for my selection using pytest."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                },
+                {
+                  "name": "new",
+                  "description": "Scaffold code for a new file or project in a workspace",
+                  "sampleRequest": "Create a RESTful API server using typescript",
+                  "isSticky": true,
+                  "disambiguation": [
+                    {
+                      "category": "create_new_workspace_or_extension",
+                      "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                      "examples": [
+                        "Scaffold a Node server.",
+                        "Create a sample project which uses the fileSystemProvider API.",
+                        "react application"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "newNotebook",
+                  "description": "Create a new Jupyter Notebook",
+                  "sampleRequest": "How do I create a notebook to load data from a csv file?",
+                  "disambiguation": [
+                    {
+                      "category": "create_jupyter_notebook",
+                      "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                      "examples": [
+                        "Create a notebook to analyze this CSV file."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "setupTests",
+                  "description": "Set up tests in your project (Experimental)",
+                  "sampleRequest": "add playwright tests to my project",
+                  "when": "config.github.copilot.chat.setupTests.enabled",
+                  "disambiguation": [
+                    {
+                      "category": "set_up_tests",
+                      "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                      "examples": [
+                        "Set up tests for this project."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "disambiguation": [
+                {
+                  "category": "workspace_project_questions",
+                  "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+                  "examples": [
+                    "What does this project do?"
+                  ]
+                },
+                {
+                  "category": "find_code_in_workspace",
+                  "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+                  "examples": [
+                    "Where is the tree widget implemented?"
+                  ]
+                },
+                {
+                  "category": "generate_with_workspace_context",
+                  "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+                  "examples": [
+                    "Create a README for this project."
+                  ]
+                }
+              ]
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 10,
+              "endExclusive": 11
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 11,
+              "endLineNumber": 1,
+              "endColumn": 12
+            },
+            "text": " ",
+            "kind": "text"
+          },
+          {
+            "range": {
+              "start": 11,
+              "endExclusive": 19
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 12,
+              "endLineNumber": 1,
+              "endColumn": 20
+            },
+            "command": {
+              "name": "explain",
+              "description": "Explain how the code in your active editor works"
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 19,
+              "endExclusive": 806
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 20,
+              "endLineNumber": 7,
+              "endColumn": 131
+            },
+            "text": " No overload matches this call.\n  Overload 1 of 2, '(props: ButtonProps): Button', gave the following error.\n    Type '{ children: Element; onPress: () => void; }' is not assignable to type 'IntrinsicAttributes & IntrinsicClassAttributes<Button> & Readonly<ButtonProps>'.\n      Property 'children' does not exist on type 'IntrinsicAttributes & IntrinsicClassAttributes<Button> & Readonly<ButtonProps>'.\n  Overload 2 of 2, '(props: ButtonProps, context: any): Button', gave the following error.\n    Type '{ children: Element; onPress: () => void; }' is not assignable to type 'IntrinsicAttributes & IntrinsicClassAttributes<Button> & Readonly<ButtonProps>'.\n      Property 'children' does not exist on type 'IntrinsicAttributes & IntrinsicClassAttributes<Button> & Readonly<ButtonProps>'.",
+            "kind": "text"
+          }
+        ],
+        "text": "@workspace /explain No overload matches this call.\n  Overload 1 of 2, '(props: ButtonProps): Button', gave the following error.\n    Type '{ children: Element; onPress: () => void; }' is not assignable to type 'IntrinsicAttributes & IntrinsicClassAttributes<Button> & Readonly<ButtonProps>'.\n      Property 'children' does not exist on type 'IntrinsicAttributes & IntrinsicClassAttributes<Button> & Readonly<ButtonProps>'.\n  Overload 2 of 2, '(props: ButtonProps, context: any): Button', gave the following error.\n    Type '{ children: Element; onPress: () => void; }' is not assignable to type 'IntrinsicAttributes & IntrinsicClassAttributes<Button> & Readonly<ButtonProps>'.\n      Property 'children' does not exist on type 'IntrinsicAttributes & IntrinsicClassAttributes<Button> & Readonly<ButtonProps>'."
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:index.tsx",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "external": "file:///home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "thinking",
+          "value": "**Clarifying TypeScript and React use**\n\nI need to look at the TypeScript typing for the Termék type defined under useState. It seems like there's a potential issue since it's defined after useState, but TypeScript allows referencing types declared later in the same block since types are not runtime and get hoisted during parsing.\n\nNext, I should clarify that the React Native Button doesn’t accept children, suggesting using the title prop or swapping to TouchableOpacity. I'll show the updated code block with the necessary changes, including the file path and tsx format for clarity.",
+          "id": "XSDIpc8aZqlUkMoXi1NDuqWlM16CcPLTzK3/qETshHYQ8peZCkgmqHNqfqz+MPYokjwJvnCy+LbPAY/qZjjPzdlWyXQi0SxAEObkIpo4lWsgPHeMz/5hhdR1E/1W+30KTga/npoiLTlyxSpH5QdXFJvEdELfQ1M6Aj1U9iEVVgXwcgPHWTm2mhq1Lz1hAg1M5mr8QWmbjKgK4c2NbEnOuPD0kZ0D7vlP6HMy5exBD2eKyOr30oRL6B0hwVpWe8ZUHn1xt/kfRpfLiqJQPHGHpVysCYYxrhaYljFauLZFEOZTRuG7gWvGODflcXs+xm4O38h9lWtLFbJUVdkLwT+VnEBs28cE984jVoTEmabmquR2c2lBtlqz0kmE29H2bKMOrQ=="
+        },
+        {
+          "kind": "thinking",
+          "value": "",
+          "id": "umkVvyZNm3C+ze9hSzxU1G2/AW/AyQi83LEqUvO1bZj0BR4SMZNk1y8d0MHVyiEg3llsMv5TGxE4AcBzbkH84KrFueawEW4/JK2WtgPPb4Z1VZrjs4BbnT7lMDMDahrYu1XGjTVhKfBAg4lboa9bkzKOn80Cvn27iqkqdxnGPgSiJWzUTNYkJdbKScEGbd2yi9xEHbPv7Xn3rG7eT86ff4dRan6mEaGa7rF/cdb8AvYcZK7bMlfU2XIDuNpSwax8ManR8EJ0hNs9j3TJo77ode5cPahvsnDZgpG2FeHgOO1E1ts5FBihMgM6rjGsXcSi97nsVPz0uARNN7lTWqNfw52Uwq49xz4iKIYZzcZx/T0JEsxOfqjKEgwDIrHte/Ng5A=="
+        },
+        {
+          "kind": "thinking",
+          "value": "**Optimizing key extraction in lists**\n\nI need to clarify the importance of using keyExtractor for lists while avoiding the key prop in the renderItem function. It seems like the onPress functionality was fixed earlier, so I want to keep this explanation concise. I’m also pondering whether using names is necessary in this context — actually, it seems it’s not a requirement. Let me focus on wrapping up the explanation with these key points for clarity.",
+          "id": "xeVbhk2T2AEs7OMhfvrMhwi7/oVS2ZayCOwDBmwduFpZV3gATBsTw0MrnL4Y1CNT+yHOpAHf/JO1Xq3mfog+pHEUiD2nL9QkCRSHIaiuk1vscstYTszcB69oxw/UqD7p5++KX9qAtkneba3GvrJCuP2dQK8v+HOeROh2M/wcjTKRWjSmdQvzCsjaEUbVZa6fIfc2ICx15kG49YrtY7QGSdVRKOV0/75O5h7V5uuP5EyX1puFLkkL3iYaZ19JToFnql9MjSkDwvWTaF0cSudtaNb1naes0HkuaaILRoGAIYeS4bbSxZYXX2PyPdOGtwZ5btMqhHLbgViFe0NiRpi/Dp7iTWEvKh4fHoy9LB138fnrb+QcicBad0TfXow1rr5p8A=="
+        },
+        {
+          "kind": "thinking",
+          "value": "",
+          "id": "5k71jP0HPpNHMJkt+qYGu4zQfPz1YRYHmRksJypzeaxXKGklp/NUJ5DsZAAa97+FquXhjUtpIjHiniMBaHucf2i0s0mc/7jK8xAFzIwdwuqxGOxQjMn0l3YSWduLJT02luu1Qc6eYwKYhWNxcAOBIwE/LbUUylNPfAif0pXvKzfavaI3rl3JV8GTyi4qJlpJ7UDB9I8SydXXk5aWlwymwD1RSev5h0813jDzvMr7EMqprm9nHl4C9DzFZmlPBff1O/P4zCfnpB1NPuOkYMb5ejOIvmZ3EEAhMOdoHh3LEU+5uvz6IYuH8r4vxUJdMK6DJNaPwa8wF9njGBJDpCK4dhraiLrOBfNJ2WiBUdaw4X3TuydOJPCIPhDzjalyuFOEZg=="
+        },
+        {
+          "value": "GitHub Copilot\n\nProblem: React Native's built-in Button does not accept children — it expects a title prop. You're passing <Text> as children, so TypeScript complains.\n\nFix: replace the children usage with title, or use TouchableOpacity if you need custom styling. Also move/add a proper addItem implementation so the button does something.\n\n````tsx\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+            "external": "file:///home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+            "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "// ...existing code...\n      <TextInput\n       placeholder=\"Add a product\"\n       style={st.inputbox}\n        value={inputValue}\n        onChangeText={setInputValue}\n      />\n\n-      <Button onPress={() => addItem(inputValue)}><Text>btn</Text></Button>\n+      <Button onPress={() => addItem(inputValue)} title=\"Add\" />\n// ...existing code...\n\n// ...existing code...\nfunction addItem(inputv : string){\nreturn;\n}\n````\n\nOptional improved addItem (place inside the component so it can call setTermek / setInputValue):\n\n````tsx\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+            "external": "file:///home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+            "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "// ...existing code...\n  const addItem = (inputv: string) => {\n    if (!inputv.trim()) return;\n    const nextId = termek.length ? Math.max(...termek.map(t => t.id || 0)) + 1 : 1;\n    setTermek(prev => [...prev, { id: nextId, name: inputv, isBuyed: false }]);\n    setInputValue(\"\");\n  };\n// ...existing code...\n````\n\nGotchas / suggestions:\n- Don't put a key prop on renderItem root when using FlatList; use keyExtractor with stable ids instead of index.\n- Consider moving the Termék type above its first use and give properties non-optional if appropriate.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_efd163c5-5901-40fb-a83f-546cd8e53164",
+      "result": {
+        "timings": {
+          "firstProgress": 18612,
+          "totalElapsed": 20906
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "// ...existing code...\n      <TextInput\n       placeholder=\"Add a product\"\n       style={st.inputbox}\n        value={inputValue}\n        onChangeText={setInputValue}\n      />\n\n-      <Button onPress={() => addItem(inputValue)}><Text>btn</Text></Button>\n+      <Button onPress={() => addItem(inputValue)} title=\"Add\" />\n// ...existing code...\n\n// ...existing code...\nfunction addItem(inputv : string){\nreturn;\n}\n",
+              "resource": {
+                "$mid": 1,
+                "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+                "scheme": "file"
+              },
+              "language": "tsx",
+              "markdownBeforeBlock": "GitHub Copilot\n\nProblem: React Native's built-in Button does not accept children — it expects a title prop. You're passing <Text> as children, so TypeScript complains.\n\nFix: replace the children usage with title, or use TouchableOpacity if you need custom styling. Also move/add a proper addItem implementation so the button does something.\n\n"
+            },
+            {
+              "code": "// ...existing code...\n  const addItem = (inputv: string) => {\n    if (!inputv.trim()) return;\n    const nextId = termek.length ? Math.max(...termek.map(t => t.id || 0)) + 1 : 1;\n    setTermek(prev => [...prev, { id: nextId, name: inputv, isBuyed: false }]);\n    setInputValue(\"\");\n  };\n// ...existing code...\n",
+              "resource": {
+                "$mid": 1,
+                "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+                "scheme": "file"
+              },
+              "language": "tsx",
+              "markdownBeforeBlock": "\nOptional improved addItem (place inside the component so it can call setTermek / setInputValue):\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "GitHub Copilot\n\nProblem: React Native's built-in Button does not accept children — it expects a title prop. You're passing <Text> as children, so TypeScript complains.\n\nFix: replace the children usage with title, or use TouchableOpacity if you need custom styling. Also move/add a proper addItem implementation so the button does something.\n\n````tsx\n// filepath: /home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx\n// ...existing code...\n      <TextInput\n       placeholder=\"Add a product\"\n       style={st.inputbox}\n        value={inputValue}\n        onChangeText={setInputValue}\n      />\n\n-      <Button onPress={() => addItem(inputValue)}><Text>btn</Text></Button>\n+      <Button onPress={() => addItem(inputValue)} title=\"Add\" />\n// ...existing code...\n\n// ...existing code...\nfunction addItem(inputv : string){\nreturn;\n}\n````\n\nOptional improved addItem (place inside the component so it can call setTermek / setInputValue):\n\n````tsx\n// filepath: /home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx\n// ...existing code...\n  const addItem = (inputv: string) => {\n    if (!inputv.trim()) return;\n    const nextId = termek.length ? Math.max(...termek.map(t => t.id || 0)) + 1 : 1;\n    setTermek(prev => [...prev, { id: nextId, name: inputv, isBuyed: false }]);\n    setInputValue(\"\");\n  };\n// ...existing code...\n````\n\nGotchas / suggestions:\n- Don't put a key prop on renderItem root when using FlatList; use keyExtractor with stable ids instead of index.\n- Consider moving the Termék type above its first use and give properties non-optional if appropriate.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "1e4b7c8c-16fe-4cec-a1d1-3f83c1d4a03d",
+              "statefulMarker": "Axs36RghcpgQQ+NLYYSNhVlLdfmCEqV3CkbQk0BwfVTfFopYKE2kiGxOjlfX5rzBbUr2xpN38EvfR49CphhHfCrQUGIMcSou3b9D5JomDCmps4DIl2wMSvn8Lr7eUOLnggECKhorbAaIIh9bx5ADIYfQ4ni3vj7cTCx+Y/SZxwEQI+owRhlEU+dVKQFCS8/TIjycntnQCKR71HBjlGvCPWjlIC1AAWsHUhb9wtAX8PORO1tlciLC2gv8G8SRvIN40yJZ1xRjq8kolqKv50ytYbvTwjAiGQK7jlBUZ9pATiooHyGYzPrWx4VIA3oWa1QfMJUKw04aYmiDwmQbeN3l7m3cztIW9Qxhps9Ps2eOoSmLo10eBEvKDS/owHxOOjUNYFJM",
+              "thinking": {
+                "id": "AyFWgyfUd4UeSa3CvyuJj/Af9lhgwbXzHIspqZozgSH+SOUrUIgxAS9QNJkmX6NaGkvvLIfVnI3mhas+Zr2cI7XdSVda7U2e2d6dENmv0Z4XKYDKa77LsO1wxQEtxUFIk3Z3yglwrEGaZDt+zmwWRXwOvOJrfk9NOoLP5rI0taxpH72Gs8vpUSdEk1qb1xWK3L1wIY2ohw6VpZuW2f49Vz1c0XmRXO40vHaCePMqt08dKIL9Krrc5c/rTa18a0iEqc8zht6Z2DPT56Jw8VrbXdbzZIgENoVyR7hrg8OnvAfuSVPlTi651TW4IU3Tlx935vWnNcHOEvXEMvjnsv208ds3z9NvZSeF8XqjdFgCLlfnaTSTKKzByVV4mD1FHI+3ng==",
+                "text": "**Clarifying TypeScript and React use**\n\nI need to look at the TypeScript typing for the Termék type defined under useState. It seems like there's a potential issue since it's defined after useState, but TypeScript allows referencing types declared later in the same block since types are not runtime and get hoisted during parsing.\n\nNext, I should clarify that the React Native Button doesn’t accept children, suggesting using the title prop or swapping to TouchableOpacity. I'll show the updated code block with the necessary changes, including the file path and tsx format for clarity.**Optimizing key extraction in lists**\n\nI need to clarify the importance of using keyExtractor for lists while avoiding the key prop in the renderItem function. It seems like the onPress functionality was fixed earlier, so I want to keep this explanation concise. I’m also pondering whether using names is necessary in this context — actually, it seems it’s not a requirement. Let me focus on wrapping up the explanation with these key points for clarity.",
+                "encrypted": "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",
+                "tokens": 768
+              }
+            }
+          ],
+          "modelMessageId": "dc7636ca-495b-401f-a99e-eaac65919ff0",
+          "responseId": "026e7157-4d7d-4adf-bebb-a037fd9105a8",
+          "sessionId": "34fac810-f900-473a-ac48-20d03bab3297",
+          "agentId": "github.copilot.workspace",
+          "command": "explain"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.32.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.workspace",
+        "description": "Ask about your workspace",
+        "when": "!github.copilot.interactiveSession.disabled",
+        "metadata": {
+          "sampleRequest": "How do I build this project?",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "workspace",
+        "fullName": "Workspace",
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent",
+          "ask",
+          "edit"
+        ],
+        "slashCommands": [
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works"
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "create_tests",
+                "description": "The user wants to generate unit tests.",
+                "examples": [
+                  "Generate tests for my selection using pytest."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+          },
+          {
+            "name": "new",
+            "description": "Scaffold code for a new file or project in a workspace",
+            "sampleRequest": "Create a RESTful API server using typescript",
+            "isSticky": true,
+            "disambiguation": [
+              {
+                "category": "create_new_workspace_or_extension",
+                "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                "examples": [
+                  "Scaffold a Node server.",
+                  "Create a sample project which uses the fileSystemProvider API.",
+                  "react application"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "newNotebook",
+            "description": "Create a new Jupyter Notebook",
+            "sampleRequest": "How do I create a notebook to load data from a csv file?",
+            "disambiguation": [
+              {
+                "category": "create_jupyter_notebook",
+                "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                "examples": [
+                  "Create a notebook to analyze this CSV file."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "setupTests",
+            "description": "Set up tests in your project (Experimental)",
+            "sampleRequest": "add playwright tests to my project",
+            "when": "config.github.copilot.chat.setupTests.enabled",
+            "disambiguation": [
+              {
+                "category": "set_up_tests",
+                "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Set up tests for this project."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "workspace_project_questions",
+            "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+            "examples": [
+              "What does this project do?"
+            ]
+          },
+          {
+            "category": "find_code_in_workspace",
+            "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+            "examples": [
+              "Where is the tree widget implemented?"
+            ]
+          },
+          {
+            "category": "generate_with_workspace_context",
+            "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+            "examples": [
+              "Create a README for this project."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "explain",
+        "description": "Explain how the code in your active editor works"
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "external": "file:///home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "path": "/home/mailerdaemon/Projects/gyakorlo/bevasarlo/app/index.tsx",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 6,
+              "startColumn": 1,
+              "endLineNumber": 34,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1763711226617,
+      "modelId": "copilot/auto"
+    }
+  ],
+  "sessionId": "8fe251c1-43cc-40ca-8c17-58b93a0486e0",
+  "creationDate": 1763709307402,
+  "isImported": false,
+  "lastMessageDate": 1763711226618,
+  "customTitle": "Button onPress function call error in React Native"
+}

@@ -1,0 +1,47 @@
+<script>
+export default {
+    data() {
+        return {
+            movie: {
+                title: "",
+                rating: 0,
+                seen: false,
+
+            }
+        }
+    },
+    methods: {
+            addMovie() {
+            if(this.movie.title >= 30){
+            addMovie() {
+            this.$emit('add-movie', this.movie);
+            this.movie = { title: "", rating: 0};
+        }
+        }
+        else{
+            alert("Nem lehet 30  char-nál hosszabb a cím!")
+        }
+
+    },
+        }
+        }
+        else{
+            alert("Nem lehet 30  char-nál hosszabb a cím!")
+        }
+
+    },
+    emits: ['add-movie']
+}
+
+
+</script>
+
+<template>
+
+    <input type="text" v-model="movie.title" placeholder="Movie Title">
+
+    <input type="number" v-model="movie.rating">
+    <input type="button" @click="addMovie" value="Add Movie">
+</template>
+
+<style scoped></style>
