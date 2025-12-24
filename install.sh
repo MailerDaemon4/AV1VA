@@ -32,3 +32,22 @@ done < "$FULL_LIST"
 
 echo "==> Csomagok telepítve."
 
+
+# Állítsuk be a fish-t alapértelmezett shell-nek
+if ! grep -q "/bin/fish" /etc/shells; then
+    echo "/bin/fish" | sudo tee -a /etc/shells
+fi
+
+chsh -s /bin/fish
+echo "==> Fish beállítva alap shell-nek"
+
+
+
+# Configok és home mappa másolása
+echo "==> Configok felmásolása"
+cp -r ./home/. "$HOME/"
+
+# Alapértelmezett mappák létrehozása
+mkdir -p "$HOME/Desktop" "$HOME/Downloads" "$HOME/Documents" "$HOME/Projects" "$HOME/Pictures" "$HOME/Videos" "$HOME/Music"
+
+echo "==> Home mappa és configok készen"
